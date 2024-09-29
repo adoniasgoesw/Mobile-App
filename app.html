@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Tela de Login</title>
+
+    <style>
+        /* Estilos do swiper */
+        .swiper {
+            width: 100%;
+        
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #fff;
+            background: var(--color-primary-2); /* Cor de fundo dos slides */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="navlogo">
+                <i class="ri-hospital-line"></i>
+                <h1 id="welcome">Olá, Amigo!</h1>
+            </div>
+
+            <div class="icons-services">
+                <i class="ri-notification-line"></i>
+                <i class="ri-phone-line"></i>
+                <i class="ri-user-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-content">
+            <div class="acesso-rapido content">
+                <div class="acesse-header">
+                    <h1>Acesso Rápido</h1>
+                    <h1 class="pers">
+                        Personalizar
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </h1>
+                </div>
+                <div class="acessos">
+                    <div class="acesso">
+                        <i class="ri-calendar-schedule-line"></i>
+                        <h3>Marcar consulta</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-video-on-line"></i>
+                        <h3>Telemedicina</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-file-list-3-line"></i>
+                        <h3>Receita de Remédios</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-file-list-3-line"></i>
+                        <h3>Cartão SUS Online</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-syringe-line"></i>
+                        <h3>Vacinas</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-article-line"></i>
+                        <h3>Histórico de Consultas</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-questionnaire-line"></i>
+                        <h3>Suporte ao Paciente</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-line-chart-line"></i>
+                        <h3>Resultados de Exames</h3>
+                    </div>
+                    <div class="acesso">
+                        <i class="ri-time-line"></i>
+                        <h3>Horários de Atendimento</h3>
+                    </div>
+                    <div class="acesso chat">
+                        <i class="ri-message-2-line"></i>
+                        <h3>Chat com Médico</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="services-content">
+                <div class="services-header">
+                    <h1>Atendimentos</h1>
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <i class="ri-video-on-line"></i>
+                        <h3>Telemedicina</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-add-box-line"></i>
+                        <h3>Atendimento de Urgência</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-tooth-line"></i>
+                        <h3>Consulta Odontológica</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-presentation-line"></i>
+                        <h3>Consulta Especializada</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-heart-pulse-line"></i>
+                        <h3>Acompanhamento de Tratamento</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-hand-heart-line"></i>
+                        <h3>Orientações Médicas</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-brain-line"></i>
+                        <h3>Aconselhamento Psicológico</h3>
+                    </div>
+                    <div class="service">
+                        <i class="ri-mental-health-line"></i>
+                        <h3>Programas de Saúde</h3>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="news-content">
+                <div class="news ">
+                    <div class="new ">
+                        <div class="informations">
+                            <h3 class="title">
+                                Vacine-se! <br>Proteja quem você ama!
+                            </h3>
+
+                            <p class="description">
+                                Informe-se sobre as vacinas disponíveis.
+                            </p>
+                        </div>
+
+                        <div class="banner">
+                            <img src="img/vacina-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            <!-- Swiper -->
+            <div class="news-content swiper">
+                <div class="news swiper-wrapper">
+                    <div class="new swiper-slide">
+                        <div class="informations">
+                            <h3 class="title">
+                                Vacine-se! <br>Proteja quem você ama!
+                            </h3>
+
+                        </div>
+
+                        <div class="banner">
+                            <img src="img/vacina-2.jpg" alt="">
+                        </div>
+
+
+                        
+                    </div> 
+                    <div class="new swiper-slide">
+                        <div class="informations">
+                            <h3 class="title">
+                                Proteja-se contra a Dengue.
+                                <br> Previna hoje!
+                            </h3>
+
+                        </div>
+
+                        <div class="banner">
+                            <img src="img/dengue.webp" alt="">
+                        </div>
+
+
+                        
+                    </div>  
+                    <div class="new swiper-slide">
+                        <div class="informations">
+                            <h3 class="title">
+                                Cuide-se! <br>
+                                 Participe e viva melhor!
+                            </h3>
+
+                        </div>
+
+                        <div class="banner">
+                            <img src="img/palestra.webp" alt="">
+                        </div>
+
+
+                        
+                    </div>     
+                    
+                </div>
+                <!-- Adicione a paginação, se desejar -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+            <div class="terms">
+                <a href="#">Ouvidoria</a>
+                <a href="#">Ajuda</a>
+                <a href="#">Termos e condições de uso</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="menu-list">
+            <div class="menu">
+                <h2>Início</h2>
+                <i class="ri-home-4-line"></i>
+            </div>
+            <div class="menu">
+                <h2>Serviços</h2>
+                <i class="ri-id-card-line"></i>
+            </div>
+            <div class="menu">
+                <h2>Novidades</h2>
+                <i class="ri-news-line"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Inicialização do Swiper
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tela de Login</title>
+
+</head>
+<body>
+
+    <div class="error">
+        <div class="content">
+            <h1>Ops! Ainda não possuimos uma versão web :) </h1> 
+            <p>Tente novamente usando uma tela inferior a 540px</p>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="navlogo">
+                <i class="ri-hospital-line"></i>
+                <h1>Health Hub</h1>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="container-form">
+            <form onsubmit="event.preventDefault(); salvarUsuario();">
+                <h1>Entre ou crie uma conta para consultar</h1>
+                <input type="text" id="username" placeholder="Nome de usuário">
+                <input type="password" id="password" placeholder="Senha"> 
+                <button type="submit" class="btn-default">Entrar</button>
+                <a href="#">Esqueceu sua senha?</a>
+                <a href="#">Não possui uma conta?</a>
+            </form>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
