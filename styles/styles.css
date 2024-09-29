@@ -426,6 +426,7 @@
         border-top: 2px solid var(--color-primary-2);
         padding: 15px;
         background-color: #fff;
+        z-index: 100;
     }
 
     
